@@ -33,5 +33,10 @@ public class ItemController {
         return ResponseEntity.ok().build();
     }
 
+    @PutMapping(path = "/{id}")
+    public  ResponseEntity<Void> put(@PathVariable Long id){
+        return  null;
+    }
+
 
 }
